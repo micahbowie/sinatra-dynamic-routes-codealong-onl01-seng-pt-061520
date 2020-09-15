@@ -24,7 +24,8 @@ class App < Sinatra::Base
     @i_num1 = @num1.to_i
     @i_num2 = @num2.to_i
     
-    "Goodbye, #{@user_name}."
+    @i_num1 * @i_num2
+    
   end
 
 end
